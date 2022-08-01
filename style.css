@@ -41,6 +41,9 @@ body {
 #img23 {
     position: relative;
     top: 200px;
-    left: 500px;
+    margin-left: 500px;
+    width: 200px;
+}
+.zeyada{
     width: 200px;
 }
