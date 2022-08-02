@@ -44,6 +44,49 @@ body {
     margin-left: 500px;
     width: 200px;
 }
-.zeyada{
+
+.zeyada {
     width: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-image: url("https://i.pinimg.com/originals/96/3f/49/963f4946cb59a181fc60fdca84ce9027.gif");
+    }
+
+    #button1 {
+        position: relative;
+        left: 30px;
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        background-color: brown !important;
+    }
+
+    #button2 {
+        position: relative;
+        left: 80px;
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        background-color: brown !important;
+    }
+
+    .section2 img {
+        position: relative;
+        top: 350px;
+        /* left: px; */
+        width: 150px;
+    }
+
+    #img23 {
+        position: relative;
+        top: 350px;
+        margin-left: 40px;
+        width: 120px;
+    }
 }

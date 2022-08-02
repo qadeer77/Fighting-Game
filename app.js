@@ -8,7 +8,7 @@ var num1 = document.getElementById("image1");
 var num2 = document.getElementById("img23");
 var counting = 50;
 var count = 50;
-window.onkeydown = function() {
+window.onkeydown = function () {
     console.log(event.keyCode);
     if (event.keyCode === 65) {
         num2.src = "./images/run2.gif";
